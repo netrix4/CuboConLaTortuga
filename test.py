@@ -1,3 +1,9 @@
+"""
+Codigo De: Mario De Jesus Arias Hernandez
+Practica de la tortuga
+
+"""
+
 import turtle as t
 from random import random
 
