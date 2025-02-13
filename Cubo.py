@@ -2,6 +2,7 @@
 Codigo De: Mario De Jesus Arias Hernandez
 Practica de la tortuga
 
+Todo: usar la funcion de dot para hacer lineas y hacer lo mismo
 """
 
 import turtle as t
