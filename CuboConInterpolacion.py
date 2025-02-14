@@ -8,33 +8,6 @@ from turtle import Turtle
 import math
 
 t = Turtle()
-angle = 90
-lineLenght = 150
-
-def DrawSingleCube():
-    for i in range(4):
-        t.right(angle)
-        t.fd(lineLenght)
-
-def ConectTwoCubes():
-    t.right(angle)
-    t.fd(lineLenght)
-
-    t.right(angle-45)
-    t.fd(lineLenght*.66)
-
-    t.right(angle-45)
-    t.fd(lineLenght)
-
-    t.right(angle+45)
-    t.fd(lineLenght*.66)
-
-    t.left(angle-45)
-    t.fd(lineLenght)
-
-    t.left(angle+45)
-    t.fd(lineLenght*.66)
-
 
 def calcYForX(slope, x, point):
     # y-y1 = m (x-y1)
